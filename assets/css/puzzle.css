@@ -1,0 +1,223 @@
+#puzzle-main-body
+{
+	background-color: #3E3E3E;
+	/*margin-top: 70px;*/
+}
+#myModal{
+	top:100px;
+}
+#myModal2{
+	top:100px;
+}
+#about{
+	display: none;
+}
+
+.tile {
+	cursor: pointer;
+	height: 80px;
+	width: 80px;
+	border-radius: 6px;
+	color:#fff;
+	font-size: 2.5em;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	transition: top 0.2s,left 0.2s;
+}
+
+.puzzle-board-8 .tile-1{
+	top:10px;
+	left: 10px;
+}
+
+.puzzle-board-8 .tile-2{
+	top:10px;
+	left:100px;
+}
+
+.puzzle-board-8 .tile-3{
+	top:10px;
+	left:190px;
+}
+.puzzle-board-8 .tile-4{
+	top:100px;
+	left:10px;
+}
+
+.puzzle-board-8 .tile-5{
+	top:100px;
+	left:100px;
+}
+
+.puzzle-board-8 .tile-6{
+	top:100px;
+	left:190px;
+}
+
+
+.puzzle-board-8 .tile-7{
+	top:190px;
+	left:10px;
+}
+
+.puzzle-board-8 .tile-8{
+	top:190px;
+	left:100px;
+}
+.puzzle-board-8 .tile-9{
+	top:190px;
+	left:190px;
+}
+
+.puzzle-board-15 .tile-1{
+	top:10px;
+	left: 10px;
+}
+
+.puzzle-board-15 .tile-2{
+	top:10px;
+	left:100px;
+}
+
+.puzzle-board-15 .tile-3{
+	top:10px;
+	left:190px;
+}
+.puzzle-board-15 .tile-4{
+	top:10px;
+	left:280px;
+}
+
+.puzzle-board-15 .tile-5{
+	top:100px;
+	left:10px;
+}
+
+.puzzle-board-15 .tile-6{
+	top:100px;
+	left:100px;
+}
+
+
+.puzzle-board-15 .tile-7{
+	top:100px;
+	left:190px;
+}
+
+.puzzle-board-15 .tile-8{
+	top:100px;
+	left:280px;
+}
+.puzzle-board-15 .tile-9{
+	top:190px;
+	left:10px;
+}
+
+.puzzle-board-15 .tile-10{
+	top:190px;
+	left:100px;
+}
+
+.puzzle-board-15 .tile-11{
+	top:190px;
+	left:190px;
+}
+
+.puzzle-board-15 .tile-12{
+	top:190px;
+	left:280px;
+}
+.puzzle-board-15 .tile-13{
+	top:280px;
+	left:10px;
+}
+
+.puzzle-board-15 .tile-14{
+	top:280px;
+	left:100px;
+}
+
+.puzzle-board-15 .tile-15{
+	top:280px;
+	left:190px;
+}
+
+.puzzle-board-15 .tile-16{
+	top:280px;
+	left:280px;
+}
+
+.puzzle-board-8{
+	margin: 0 auto;
+	padding: 5px 0;
+	background-color: #d1d1d1;
+	width: 280px;
+	height: 280px;
+	position: relative;
+
+}
+
+.puzzle-board-15{
+	margin: 0 auto;
+	padding: 5px 0;
+	background-color: #d1d1d1;
+	width: 370px;
+	height: 370px;
+	position: relative;
+}
+.card {
+	padding: 30px;
+	margin-bottom: 10px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: 6px;
+	outline: 0;
+	background-color: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.tile-color-1{
+	background-color:#1f4788;
+}
+.tile-color-2{
+	background-color:#e2b13c;
+}
+.tile-color-3{
+	background-color:#87d37c;
+}
+.tile-color-4{
+	background-color:#ca6924;
+}
+.tile-color-5{
+	background-color:#264348;
+}
+.tile-color-6{
+	background-color:#763568;
+}
+.tile-color-7{
+	background-color:#f47983;
+}
+.tile-color-8{
+	background-color:#89729e;
+}
+.tile-color-9{
+	background-color:#f5d76e;
+}
+.tile-color-10{
+	background-color:#317589;
+}
+.tile-color-11{
+	background-color:#2abb9b;
+}
+.tile-color-12{
+	background-color:#c93756;
+}
+.tile-color-13{
+	background-color:#fcc9b9;
+}
+.tile-color-14{
+	background-color:#6c7a89;
+}
+.tile-color-15{
+	background-color:#89c4f4;
+}
